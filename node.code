@@ -1,0 +1,3 @@
+docker build . -t binyandocker/httpnode -f Dockerfile
+
+docker run -p 8666:8600 --name httpnode binyandocker/httpnode
