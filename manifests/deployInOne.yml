@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: jenkinsacr.azurecr.cn/node 
+          image: {ACR_IMAGE}
           ports:
           - containerPort: 80
 ---
